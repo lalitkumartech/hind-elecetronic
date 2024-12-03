@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,400;1,500;1,700&display=swap');
+
+.header_sec {
+  background-image: url("/public/images/cover_banner.jpg") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  /* height: 400px !important; */
+}
+
+.header_sec nav {
+  background: transparent;
+  box-shadow: none;
+  padding: 20px 0px 40px;
+}
+
+.nav_list button {
+  color: var(--second-text-color, #737373);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.banner_row {
+  padding: 50px 0;
+}
+
+.banner_heading {
+  font-family: Montserrat !important;
+  font-size: 58px !important;
+  font-style: normal;
+  font-weight: 800 !important;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: #0c9;
+}
+
+.banner_prgph {
+  font-family: Montserrat !important;
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: 30px !important;
+  letter-spacing: 0.2px;
+  padding: 35px 0;
+  color: var(--second-text-color, #fff);
+}
+
+.banner_button {
+  background: var(--secondary-color-1, #00A0C1) !important;
+}
+
+.banner_button_two {
+  border: 1px solid #00A0C1 !important;
+  color: #00A0C1 !important;
+  font-weight: 700 !important;
+}
+
+.banner-form-box {
+  padding: 40px 0 !important;
+}
+
+.banner_form {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.banner_form h3 {
+  color: var(--text-color, #252B42);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+
+.banner-form-box label {
+  color: var(--text-color, #252B42);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.banner-form.book-button {
+  padding: 15px 40px;
+  color: var(--light-text-color, #FFF);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  border-radius: 5px;
+  background: var(--primary-color, #FFA62B);
+
+}
+
+.banner-form.book-button:hover {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12) !important;
+  background: var(--primary-color, #FFA62B) !important;
+}
+
+/* ====why-choose-us-section==== */
+.whychoose-sec {
+  padding: 80px 0;
+}
+
+.whychoose_heading {
+  text-align: center;
+}
+
+.whychoose_heading h2 {
+  color: var(--text-color, #252B42);
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.whychoose_heading p {
+  color: var(--second-text-color, #737373);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  padding-top: 10px;
+}
+
+.whychoose_card {
+  padding-top: 80px;
+}
+
+.whycard_box {
+  border-radius: 11px !important;
+  /* border: 1px solid #A9D6FF; */
+  background-color: #A9D6FF !important;
+}
+
+.card_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px 50px;
+}
+
+.card_header img {
+  display: flex;
+  padding: 15px 15px 16px 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px;
+  background: var(--light-background-color, #FFF);
+  width: 29px;
+  height: 27px;
+}
+
+.card_header h5 {
+  color: var(--text-color, #252B42);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.chooseitem {
+  color: var(--second-text-color, #737373);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.whychooselist {
+  padding: 30px 44px !important;
+  border-radius: 11px;
+  border: 1px solid #A9D6FF;
+  background: #FFF;
+}
+
+.list_button {
+  color: var(--primary-color, #FFA62B) !important;
+  font-family: Montserrat !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 24px !important;
+  letter-spacing: 0.2px !important;
+  text-transform: capitalize !important;
+}
+
+/* ====why-choose-us-section-end==== */
+
+/* ====Busines-section==== */
+.business-sec {
+  padding: 80px 0;
+  background: #FAFAFA;
+}
+
+.business_video_sec {
+  background: var(--secondary-color-2, #16697A);
+  height: 407px;
+  position: relative;
+  top: 165px;
+}
+
+.business_image {
+  height: 442px;
+  position: relative;
+  bottom: 115px;
+}
+.play_icon {
+  position: absolute !important;
+  color: #fff !important;
+  left: 50% !important;
+  top: 23%;
+  transform: translate(-50%, -50%) !important;
+  text-align: center;
+  border-radius: 73.6px !important;
+background: var(--secondary-color-1, #00A0C1) !important;
+}
+
+/* ====Busines-section-end==== */
+
+
+/* ====Clientreview-section==== */
+.clientreview_heading {
+  padding-top: 80px;
+}
+.client_row {
+  padding: 30px 35px;
+  border-radius: 5px;
+  background: var(--light-background, #FFF);
+}
+.client_rating button {
+  padding: 0;
+  color: #F3CD03;
+}
+.client_subtext {
+  color: var(--second-text-color, #737373);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  padding: 20px 0;
+}
+.client_name_detail p {
+  color: var(--primary-color, #FFA62B);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  padding-left: 15px;
+}
+
+/* ====Clientreview-section-end==== */
+
+
+/* ====Ourteam-section=== */
+
+.ourteam-sec{
+  padding: 80px 0;
+  background: #ffffff;
+}
+.ourteam_row{
+  box-shadow: none !important;
+  border: 1px solid #EEE;
+background: #FFF;
+}
+.ourteam_details{
+  text-align: center;
+  padding: 30px;
+}
+
+.ourteam_details h5{
+  color: var(--text-color, #252B42);
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.1px;
+}
+
+.ourteam_details h6{
+  color: var(--second-text-color, #737373);
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.2px;
+}
+.team_social_icon {
+  color: #00A0C1 !important;
+}
+/* ====Ourteam-section-end==== */
+
+
+/* ====Appoinment-section==== */
+
+.appoinment_sec{
+  background-image: url("/public/images/appoinment-bgcover.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  padding: 50px 0;
+}
+.appoinment_box {
+  padding: 40px 0;
+}
+.appoinment_heading h5 {
+  color: var(--text-color, #252B42);
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+.appoinment_heading h2 {
+  color: var(--text-color, #252B42);
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+}
+.appoinment_form{
+  padding: 40px 0 !important;
+}
+.appoinment_select_optn{
+  padding: 20px 0;
+  display: flex;
+}
+  
+
+/* ====Appoinment-section-end==== */
+
+/* ====Cunsulting-section==== */
+.consulting-sec{
+  padding: 40px 0;
+}
+.consulting_heading h3{
+  color: var(--text-color, #252B42);
+/* h3 */
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+letter-spacing: 0.1px;
+}
+.consulting_heading p{
+  color: var(--second-text-color, #737373);
+/* paragraph */
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+}
+
+/* ====Cunsulting-section-end==== */
+
+
+/* ====Footer-sectionnd==== */
+.footer_sec{
+  background: var(--text-color, #252B42);
+  border-bottom: 1px solid #364067 !important;
+}
+.footer_logo_sec p{
+  color: var(--light-text-color, #FFF);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.1px;
+}
+.footer_logo_sec{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 40px 0;
+  border-bottom: 1px solid #364067;
+}
+.footer_list_box{
+  padding: 70px 0;
+}
+
+.footer_list h5{
+  color: var(--light-text-color, #FFF);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; 
+letter-spacing: 0.1px;
+text-align: left;
+
+}
+.footer_list ul{
+  padding-left: 0;
+}
+.footer_list ul li{
+  padding-left: 0;
+  padding: 0;
+}
+.footer-list_item{
+  color: var(--muted-color, #BDBDBD);
+  text-align: left;
+/* link */
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.2px;
+padding-left: 0;
+}
+.footer_sbcb_btn {
+  background: var(--primary-color, #FFA62B);
+  padding: 15px 22px;
+}
+.footer_subscribe_btn button {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12) !important;
+  background: var(--primary-color, #FFA62B) !important;
+  padding: 15px 22.5px;
+  margin: 0px;
+}
+.footer_subscribe_btn div {
+  margin-right: -13px;
+}
+.footer_subscribe_btn {
+  margin-top: 17px;
+}
+/* ====Footer-section-end==== */
